@@ -1,0 +1,51 @@
+
+                                                    
+Git versiyon kontrol sistemi. GitHub gitleri sergilediðimiz web site
+Ayný anda iþlem, yazýlým yapabiliyoruz. branch:(dal) dallandýrmak, budaklandýrmak. O farklý bir þey yazdý ben farklý biz yeni bir commit  ile birleþtirebiliriz. Kayýtlý olduðu için istediðim noktaya dönebilirim, gidebilirim. Tek kullanýcý da kullanabilir. Farklý kiþilerle de kullanýlýr.
+ Git config user.name:Git kullanýcý adý bilgisini görmek için.
+git status : güncel git durumunu gösterir
+Yanlýþlýkla git eklersen rm -rf. git yazarsan silinir
+Gizli dosyalar için gözükmesi için ls -la
+touch ile dosya ekleyebilirsin
+git commit   te mesaj yazmak zorunlu git commit -m yazarak mesajý Ýngilizce olarak yazabiliriz. Genelde Ýngilizce. Türkçede olur ama zaten sektör Ýngilizce.
+cd ile klasöre gidiyoruz. Ýlk açýldýðýnda çýkmayabilir sen cd ile gir.
+GitHub gibi bir platformda çalýþýrsak bir projede farklý iþlerimizi var mesela sen görüntü kýsmýný ben baþka bir kýsmý yapacaðým. Ayný anda çalýþýp en sonunda birleþtirip tek bir proje haline branch haline getirebiliriz
+Master bir branch
+Ana branch genelde son hali
+Head nedir? Bizim git  içerisinde nerede, hangi konumda olduðumuzu gösteriyor. Genelde son commiti gösterir. Ama branch lar açtýkça bu deðiþebilir. Son committe olmak da bir kural deðil. Hata yapmýþýmdýr baþa dönerim vs.
+Head güncel olarak nerede olduðumuzu gösteriyor. Bizde head sayesinde bilgi sahibi olabiliriz. Nerdeyiz vs.
+feat (eklenmek)
+Merge: Birleþtirmek.
+Farklý iki veri kaynaðýný tek bir çýktýda birleþtirir
+Featte yeni bir dosya açtim 2 branch oldu onlarý birleþtirdik
+Ya featte yeni bir dosya açmasaydým. Güncel dosya içeriklerini silseydim ama master ý silmeyip yeni þeyler ekleseydim. Bunlarý birleþtirmeye çalýþýrken çakýþýcaktý.
+Fast Forwarding: Ýleri sarmak. Ana branc içine hiçbir þey yapmazsak ek branch içine eklemeler yaparsak ana branch e bu iþlemi yaparýz
+Merge Conflict
+Stash:aktif branc inizde geçici kayýt altýna aldýðýmýz deðiþiklikleri listelenmesini saðlar
+Bitirdiðimiz bir þeyi commit ederiz. Eminsek yani. Deðilsek git add yapabiliirz
+Bir commit yaptýktan sonra veya birden çok commit yaptýktan sonra geri nasýl dönebilirim? Commit atmadýysam git restore ile geri dönerdik ama commit atarsak nasýl döneriz git check-out ile dönerim.
+git switch master --- master e geri döner
+Yaptýðýmýz tüm deðiþiklikleri geri almak için git reset komutunu kullanýrýz git revert ile commit edilen herhangi bir deðiþikliði geri alabiliriz
+Reset komutunu kullanýrken hard parametresini verirsek hem commiti hem de deðiþiklikleri silmiþ oluruz.(git reset -  -hard)
+Git diff: Git de iki versiyon arasýndaki farklarý görmek için kullanýrým.Ýki branch arasýndaki deðiþiklikleri görürüm.
+Git fetch:Uzak depodan güncel bilgileri çeker,ancak yerel çalýþma dizininde herhangi  bir deðiþiklilk yapamaz.
+Rebase: Herhangi bir dalýn üstünde gerçekleþtirilen deðiþiklikleri temel alan en son sürümüyle birleþtirmek amacýyla kullanýr
+Git stash:Deðiþiklikleri geçici olarak depolamak ve bir sonraki commite kadar saklamak için kullanabilirim.
+GitHub nedir?
+Projeleri depolayabildiðimiz bir sistem. Ama bu kadar basit deðil. Gitin komutlarýný kullanabildiðimiz birden fazla kiþiyle proje yapabildiðim bir portal
+Git push :Oluþturmuþ olduðunuz projeyi githubtaki kaynaða gönderir kýsaca
+request : açýk kaynaklý bir projede katkýda bulunmak isteyen bir kullanýcýnýn projenin sahibine deðiþiklikleri inceletmek için yaptýðý bir talep diyabilriz
+Remote branch deki deðiþiklikleri bilgilerini indirmek için kullanýlan fetih ve bu deðiþiklikleri entegre etmek için kullanýlan pull dur
+ Çaðrýldýðý andan itibaren iþletim sistemi tarafýndan, ana processin bir kopyasý oluþturulur :Fork                                  
+
+
+
+                                       
+
+
+
+
+
+
+
+
